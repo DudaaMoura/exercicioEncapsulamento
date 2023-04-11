@@ -34,7 +34,8 @@ public class ContaBancaria {
         if (valor <= this.saldo) {
             return this.saldo = this.saldo - valor;
         } else {
-            return this.saldo = this.saldo;
+            System.out.println("Saldo induficiente!!!");
+            return this.saldo;
 
         }
     }
