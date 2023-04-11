@@ -12,6 +12,12 @@ public class Principal {
 
         System.out.println("Saldo atual: "+cb.getSaldo());
 
+        cb.depositaValor(500);
+        System.out.println("Saldo atual: "+cb.getSaldo());
+
+        cb.sacarValor(100);
+        System.out.println("Saldo atual: "+cb.getSaldo());
+
        
     }
     
